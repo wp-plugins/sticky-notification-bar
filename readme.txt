@@ -24,7 +24,7 @@ Sticky Notification Bar is a cool concept of showing a cool bar on top when the 
  -   you can add the bar at the bottom or at the top. 
  -   Last but not the least its FREE
 
-
+Read more about the plugin here <a href ="http://www.wpfruits.com/downloads/wp-plugins/sticky-notification-bar-for-wordpress/?ref=wp">
 
 = Features =
  -   Adds a cool sticky bar to your web page which only shows when the user scrolls.
@@ -38,7 +38,7 @@ Sticky Notification Bar is a cool concept of showing a cool bar on top when the 
  -   you can add the bar at the bottom or at the top. 
  -   Last but not the least its FREE
 
-
+Read more about the plugin here <a href ="http://www.wpfruits.com/downloads/wp-plugins/sticky-notification-bar-for-wordpress/?ref=wp">
 
 
 == Installation ==
@@ -55,7 +55,7 @@ http://wpfruits.com/wp-content/uploads/2013/04/.png
 http://wpfruits.com/wp-content/uploads/2013/04/1.png
 
 
-
+Read more about the plugin here <a href ="http://www.wpfruits.com/downloads/wp-plugins/sticky-notification-bar-for-wordpress/?ref=wp">
 
 == Frequently asked questions ==
 
