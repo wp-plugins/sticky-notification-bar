@@ -19,4 +19,39 @@
 #snbar_admin .show_row { display:table-row; 	width:100%!important; }
 #snbar_admin .hide_row{ display:none; }
 #snbar_bar { color:red; }
+
+#snbar_admin .snbar_colwrap {
+ display: inline-block;
+    position: relative;
+    width: 125px;
+}
+
+#snbar_admin .snbar_colsel{
+    background:url("../../images/snbar_color_pick.png");
+	background-repeat:none;
+    cursor: pointer;
+    height: 26px;
+    margin-top: 1px;
+    position: absolute;
+    right: -10px;
+    top: -2px;
+    width: 26px;}
+	
+#snbar_admin .snbar_color_scheme .farbtastic{
+    display: none;
+    position: absolute;
+    top: -5px;
+    z-index: 1;
+}
+
+	
+#snbar_admin .snbar_color_scheme .farbtastic .wheel{
+z-index:1;
+
+}	
+
+#snbar_admin .snbar_colsel .farbtastic .overlay{
+z-index:1;
+}
+
 /*------------------------------------------------------------------*/

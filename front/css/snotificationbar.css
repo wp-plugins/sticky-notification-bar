@@ -4,7 +4,7 @@
 html[xmlns] .clearfix { display: block; }  
 * html .clearfix { height: 1%; }  
 /*------------SNBAR DISPALY AREA----------------------*/
-#snbar_showfront .snbar_Social{ display: inline; float: left; margin-right: 23px; position: relative; top: 3px; width: auto;}
+#snbar_showfront .snbar_Social{ display: inline; overflow: hidden; float: left; margin-right: 10px; position: relative; top: 3px; width: auto;}
 #snbar_showfront .snbar_Social a div{ margin:0 2px; }
 .snbar_section  .snbar_Social div.fbicon{ background-image:url("../../images/fb.png"); background-repeat: no-repeat; 	width:29px; height:29px; float:left; padding-right: 2px;}
 .snbar_section  .snbar_Social div.fbicon:hover{ background-image:url("../../images/facebook.png"); 	background-repeat: no-repeat; 	width:29px; 	height:29px; 	float:left; 	padding-right: 2px;}
@@ -16,16 +16,16 @@ html[xmlns] .clearfix { display: block; }
 .snbar_section  .snbar_Social div.gogleicon:hover{ background-image:url("../../images/sgooglepluse.png"); 	background-repeat: no-repeat; 	width:29px; 	height:29px; 	float:left; 	padding-right: 2px;}
 .snbar_section  .snbar_Social div.linkicon{ background-image:url("../../images/link.png"); 	background-repeat: no-repeat; 	width:29px; 	height:29px; 	float:left; 	padding-right: 2px;}
 .snbar_section  .snbar_Social div.linkicon:hover{ background-image:url("../../images/linkedin.png"); 	background-repeat: no-repeat; 	width:29px; 	height:29px; 	float:left; 	padding-right: 2px;}
-.snbar_section  .snbar_Social div.fblikeicon{ float: left;     height: 20px;     padding-right: 3px;     position: relative;     top: 5px;     width: 73px;}
-.snbar_section .snbar_content{ display: inline;     float: left;     font-family: verdana;     font-size: 12px;     margin-right: 23px;     position: relative;     text-align: justify;     width: auto; 	top: 7px; 	color: #000000; 	line-height:20px;}
-.snbar_section  .snbar_logo{ display:inline; 	float:left; 	margin-right:23px; 	height:32px; 	margin-top:1px;}
+.snbar_section  .snbar_Social div.fblikeicon{ float: left;     height: 25px;     padding-right: 3px;     position: relative;     top: 5px;     width: 73px;}
+.snbar_section .snbar_content{ display: inline;     float: left;     font-family: verdana;     font-size: 12px;     margin-right: 10px;     position: relative;     text-align: justify;     width: auto; 	top: 7px; 	color: #000000; 	line-height:20px;}
+.snbar_section  .snbar_logo{ display:inline; 	float:left; 	margin-right:10px; 	height:32px; 	margin-top:1px;}
 .snbar_section  .snbar_logo img{ border: 1px solid #000000; 	height: 30px; 	width: 100px;}
-.snbar_section  .snbar_srch{ height:auto; 	display:inline; 	float:left; 	margin-right:20px; 	margin-top:1px;}
+.snbar_section  .snbar_srch{ height:auto;  line-height: 30px;display:inline; 	float:left; 	margin-right:10px; 	margin-top:1px;}
 .snbar_section  .snbar_cancel{float: right; 	height: 24px; 	margin-top: -34px; 	width: 24px;}
 .snbar_section  .snbar_cancel #hide_bar_btn{ background-image:url("../../images/snbar_cancel.png"); 	background-repeat: no-repeat; 	width:24px; 	height:24px; 	border:0px; 	font-size:0px; 	display:block;}
 .snbar_section  .snbar_srch #searchform input#s.field{ background-color:#D0D8DD; 	color:black; }
 .snbar_section  .front_hide_row{ display:none; }
-.snbar_section  .snbar_scroll_btn { background-image:url("../../images/ScrollTop.png"); 	background-repeat: no-repeat;     height: 25px;     width: 25px; 	float:left; 	cursor:pointer; 	margin-top: 5px;}
+.snbar_section  .snbar_scroll_btn { background-image: url("../../images/snbar_top_Scroll.png");background-repeat: no-repeat; cursor: pointer; float: left; height: 20px;  margin-left: 6px; margin-top: 7px; position: relative; top: 0; width: 17px;} 
 .snbar_section  .snbar_srch #searchform label {	display:none !important; }
 
 /*-- Front Navigation --
@@ -41,7 +41,7 @@ html[xmlns] .clearfix { display: block; }
 .snbar_content .snbar-menu  a{color: #FFFFFF; 	display: block; 	line-height: 22px; 	padding: 0 10px; 	text-decoration: none; 	text-transform: capitalize;}
 .snbar_content .menu-testing-container a {color: #FFFFFF; display: block; line-height: 22px; padding: 0 10px; text-decoration: none;}
 .snbar_content .snbar-menu ul .menu li a{ color: #FFFFFF; display: block; line-height: 22px; padding: 0 10px; text-decoration: none;}
-.snbar_content .snbar-menu ul ul{ display:none; 	float: left; 	left: 0; 	padding-top: 21px; 	position: absolute; 	top: 15px; 	width: 180px; 	z-index: 99999;}
+.snbar_content .snbar-menu ul ul{ display:none; 	float: left; 	left: 0; 	padding-top: 18px; 	position: absolute; 	top: 15px; 	width: 180px; 	z-index: 99999;}
 .snbar_content .snbar-menu ul ul ul{padding-top:0; }
 .snbar_content .menu-testing-container ul ul {display: none; 	position: absolute; 	top: 20px; 	left: 0; 	float: left; 	width: 180px; 	z-index: 99999; 	padding-top: 16px; }
 .snbar_content .snbar-menu ul ul li,

@@ -35,18 +35,22 @@ wp_nonce_field('update-options'); $options = get_option('Snbar_options');
 									  <span class="snbar_form_msg"> <?php _e("in pixel",'snbar'); ?> </span> 
 									
 									</td>		
-								</tr>								
-								<tr>
-									<td><?php _e("Color Scheme",'snbar'); ?> :</td>
-									<td>
-										<input  name="Snbar_options[snbar_color_scheme]" value="<?php echo $options['snbar_color_scheme']?>"  type="text" value="#eeeeee" class="wp-color-picker-field" />
-                                    </td>
-								</tr>								
-								<tr>
+								</tr>
+                                <tr>
 									<td><?php _e("Bar Distance To Stick",'snbar'); ?> :</td>
 								    <td><input id="snbar_stick" type="text" name="Snbar_options[snbar_sticky_distance]" style="width:102px;" value="<?php echo $options['snbar_sticky_distance'] ?>" />
 								    <span class="snbar_form_msg"> <?php _e("in pixel",'snbar'); ?> </span></td>
-							    </tr>	
+							    </tr>								
+								<tr>
+									<td><?php _e("Color Scheme",'snbar'); ?> :</td>
+									<td>
+									  <div class="snbar_colwrap">									    
+										<input id="snbar_color_scheme" style="width:103px;" name="Snbar_options[snbar_color_scheme]" value="<?php echo $options['snbar_color_scheme']?>"  type="text" value="#eeeeee" />
+                                        <div class="snbar_colsel snbar_color_scheme"></div> 
+									 </div>
+									</td>
+								</tr>								
+									
 							</table>		   
 					</div> <!--snbar_general end-->					
 					<div class="snbar_social postbox">
