@@ -76,9 +76,9 @@ if(array_key_exists("snbar" ,$_COOKIE))
 				<?php if($options['snbar_search_chk'] == '1' ){ ?><div class="snbar_srch"> <?php get_search_form(); ?></div><?php } ?>
 				<?php if($options['snbar_scrolltop_btn_chk'] == '1' ){ ?><div class="snbar_scroll_btn" title="scroll to top" ></div><?php } ?>			
 		    </div>	
-			<div class="snbar_cancel">	   
+			<?php if($options['snbar_set_cookie_btn'] == '1' ){ ?><div class="snbar_cancel">	   
 				<a id="hide_bar_btn" href="javascript:void(0)" title="click here to disable sticky notification bar" onclick="snbar_set_cookiee();"></a>
-			</div>			
+			</div>	<?php } ?>			
 			<input type="hidden" id="show_bar_var" value="<?php echo $options['snbar_sticky_distance'] ;?>" />
 	</div>
 	

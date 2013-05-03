@@ -4,7 +4,7 @@ Plugin Name: Sticky Notification Bar
 Plugin URI: http://www.wpfruits.com/downloads/wp-plugins/notification-bar-plugin/
 Description: This plugin will show notification at top of the header.
 Author: rahulbrilliant2004, tikendramaitry, Nishant Jain, Megha Sharma
-Version: 1.0.2
+Version: 1.0.3
 Author URI: http://www.wpfruits.com
 */
 // ----------------------------------------------------------------------------------
@@ -59,6 +59,7 @@ function snbar_defaults(){
 		'snbar_search_chk'=> '1',
 		'snbar_content_textarea'=> 'Simply dummy text of the printing and typesetting industry.',        		
 		'snbar_scrolltop_btn_chk'=> '1',
+		'snbar_set_cookie_btn'=> '1',
     );
 return $default;
 }
@@ -81,6 +82,9 @@ function snbar_options_updates() {
 		if(!isset($options['snbar_menu_select']))
 		$options['snbar_menu_select']='0';
 		
+		if(!isset($options['snbar_set_cookie_btn']))
+		$options['snbar_set_cookie_btn']='0';
+		
 	    $snbar_update_val = array(
 		'snbar_defaultposition' => $options['snbar_defaultposition'],
 		'snbar_color_scheme' => $options['snbar_color_scheme'],
@@ -99,7 +103,8 @@ function snbar_options_updates() {
 		'snbar_search_chk'=> $options['snbar_search_chk'],	
 		'snbar_content_textarea'=>$options['snbar_content_textarea'],	
 		'snbar_menu_select'=>$options['snbar_menu_select'],	
-		'snbar_scrolltop_btn_chk' =>$options['snbar_scrolltop_btn_chk']			
+		'snbar_scrolltop_btn_chk' =>$options['snbar_scrolltop_btn_chk'],
+        'snbar_set_cookie_btn' => $options['snbar_set_cookie_btn']			
 		
     );
 return $snbar_update_val;

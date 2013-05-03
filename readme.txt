@@ -4,7 +4,7 @@ Donate link: http://www.wpfruits.com/
 Tags: wordpress notification bar, Stikcy bar top, sticky bar bottom, sticky notification bar, sticky navigation top, scroll to top icon, sticky bar
 Requires at least: 3.0
 Tested up to: 3.5.1
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -69,6 +69,7 @@ An answer to that question.
 
 
 == Changelog ==
+
 Version 1.0.1
 
 Fixed color picker and jQuery issues.
@@ -76,6 +77,11 @@ Fixed color picker and jQuery issues.
 Version 1.0.2
 
 Fixed widget drag & drop issue.
+
+Version 1.0.3
+
+Added option in admin panel to hide/show sticky notification bar close button.
+
 
 
 == Upgrade notice ==

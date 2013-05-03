@@ -15,11 +15,13 @@ function snbar_post_meta_box_options(){
 
 function snbar_post_meta_box_add(){
 	global $post;  	
-	$snbar_custom = get_post_custom($post->ID);		
-	if(isset($snbar_check)){}
-		else
-	$snbar_check='1';	
-	$snbar_check = $snbar_custom["snbar_check"][0];
+	$snbar_custom = get_post_custom($post->ID);	
+    if(!isset($snbar_custom['snbar_check']))
+		$snbar_custom['snbar_check']='0';
+	//if(isset($snbar_check)){}
+		//else
+	//$snbar_check='1';	
+	$snbar_check = $snbar_custom['snbar_check'][0];
 ?>
   <input type="checkbox" name="snbar_check" id="snbar_check" <?php if($snbar_check){ ?> checked <?php } ?> value="true"/>&nbsp;<label for="snbar_check" style="color:red;"><?php _e('Check this, if you want to Disable Sticky Notification Bar for this post/page.','snbar'); ?> </label><br/>
   <input type="hidden" name="snbar_metasubmit" value="1" />

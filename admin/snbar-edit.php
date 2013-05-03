@@ -157,7 +157,16 @@ wp_nonce_field('update-options'); $options = get_option('Snbar_options');
 							   <input id="snbar_srch" type="checkbox" <?php if(isset($options['snbar_search_chk'])) checked('1', $options['snbar_search_chk'],true);?>  name="Snbar_options[snbar_search_chk]" value = "1"/>
 							  <label for="snbar_srch"><span class="snbar_form_msg"> <?php _e("Check it to show search form",'snbar'); ?> </span></label>
 							 </td>
-						</tr>                         								
+						</tr>  
+                        
+                        <tr>
+							 <td><?php _e("Show Close Button",'snbar'); ?> :</td>
+							 <td>									   
+							   <input id="snbar_close" type="checkbox" <?php if(isset($options['snbar_set_cookie_btn'])) checked('1', $options['snbar_set_cookie_btn'],true);?>  name="Snbar_options[snbar_set_cookie_btn]" value = "1"/>
+							   <label for="snbar_close"><span class="snbar_form_msg"> <?php _e("Check it to show close Bar button on the Bar",'snbar'); ?> </span></label>
+							 </td>
+						</tr>  
+						
 					 </table>												  			
 				 </div>				
 			     <p class="button-controls">
