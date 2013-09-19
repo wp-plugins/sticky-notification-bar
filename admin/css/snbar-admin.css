@@ -54,4 +54,13 @@ z-index:1;
 z-index:1;
 }
 
+.sbar_iframe{
+	background: none repeat scroll 0 0 transparent;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px 3px 3px 3px;
+    left: 515px;
+    padding: 5px;
+    position: absolute;
+    top: 85px;
+}
 /*------------------------------------------------------------------*/

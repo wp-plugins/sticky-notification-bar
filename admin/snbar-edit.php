@@ -1,10 +1,11 @@
 <?php
 function sticky_notification_bar_backend_menu(){
-wp_nonce_field('update-options'); $options = get_option('Snbar_options');
+wp_nonce_field('update-options'); 
+$options = get_option('Snbar_options');
 ?>
-<div class="snbar_wrapper">
+<div class="snbar_wrapper wrap">
 	<div id="icon-themes" class="icon32"></div>
-	<h2><?php _e('Sticky Notification Bar  Setting\'s','snbar');?></h2>
+	<h2><?php _e('Sticky Notification Bar '.stickybar_get_version().'  Setting\'s','snbar');?></h2>
 </div>
 <div id="poststuff">
 	<div id="snbar_admin" class="postbox">		
@@ -179,4 +180,8 @@ wp_nonce_field('update-options'); $options = get_option('Snbar_options');
 		</div> <!--inside end-->
     </div>
 </div>
+
+
+<iframe class="sbar_iframe" src="http://www.sketchthemes.com/sketch-updates/plugin-updates/sbar-lite/sbar-lite.php" width="250px" height="370px" scrolling="no" ></iframe>
+
 <?php } ?>
