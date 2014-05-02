@@ -3,8 +3,8 @@ Contributors: rahulbrilliant2004, tikendramaitry, Nishant Jain
 Donate link: http://www.wpfruits.com/
 Tags: wordpress notification bar, Stikcy bar top, sticky bar bottom, sticky notification bar, sticky navigation top, scroll to top icon, sticky bar
 Requires at least: 3.0
-Tested up to: 3.8.1
-Stable tag: 1.0.5
+Tested up to: 3.9
+Stable tag: 1.0.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -69,6 +69,11 @@ An answer to that question.
 
 
 == Changelog ==
+
+=Version 1.0.6=
+
+* Added color picker for text message content.
+* Compatible with the latest WordPress version (3.9).
 
 =Version 1.0.5=
 

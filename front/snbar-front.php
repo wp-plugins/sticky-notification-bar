@@ -15,6 +15,8 @@ if (!(isset($snbarcookie))){
 		$chk_bar_disable =get_post_meta($snbar_pageId,'snbar_check',true );			
 		if (!($chk_bar_disable=='true'))
 		{
+		
+		$options['snbar_content_color'] = (isset($options['snbar_content_color']) && $options['snbar_content_color']) ? $options['snbar_content_color'] : "#000000";
 	?>
 	<!-- SNOTIFICATION BAR SECTION STARTS HERE -->
 	<style type="text/css">
@@ -28,6 +30,7 @@ if (!(isset($snbarcookie))){
 		.wpf_link{display: inline; float: left; font-size: 12px; height: 14px; margin-right: 5px; margin-top: -7px; position: absolute !important; top: 50%; width: 26px;} 	
 		.wpffullwidth_position{ position:absolute;}
 		.wpffixed_position{ position:relative;}	
+		.snbar_section .snbar_content {color:<?php echo $options['snbar_content_color']; ?>}
 	</style>
 
 	<div class="snbar_section<?php if( $options['snbar_defaultposition'] == "Bottom"){ echo " pushbottom" ;} ?><?php if($options['snbar_bar_width_mode']=='Fixed Width'){ echo " fixedwidth";} ?>"> 

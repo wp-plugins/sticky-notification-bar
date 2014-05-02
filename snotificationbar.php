@@ -4,7 +4,7 @@ Plugin Name: Sticky Notification Bar
 Plugin URI: http://www.wpfruits.com/downloads/wp-plugins/notification-bar-plugin/
 Description: This plugin will show notification at top of the header.
 Author: rahulbrilliant2004, tikendramaitry, Nishant Jain, Megha Sharma
-Version: 1.0.5
+Version: 1.0.6
 Author URI: http://www.wpfruits.com
 */
 // ----------------------------------------------------------------------------------
@@ -56,6 +56,7 @@ function snbar_defaults(){
     	'snbar_logo_chkbox'=> '1',
 		'snbar_logo_path'=> plugins_url('images/default_logo.jpg',__FILE__),
 		'snbar_content_type'=> 'Text',
+		'snbar_content_color'=> '#000000',
 		'snbar_search_chk'=> '1',
 		'snbar_content_textarea'=> 'Simply dummy text of the printing and typesetting industry.',        		
 		'snbar_scrolltop_btn_chk'=> '1',
@@ -100,6 +101,7 @@ function snbar_options_updates() {
 		'snbar_logo_chkbox'=> $options['snbar_logo_chkbox']	,
 		'snbar_logo_path'=> $options['snbar_logo_path'],	
 		'snbar_content_type'=> $options['snbar_content_type'],
+		'snbar_content_color'=> $options['snbar_content_color'],
 		'snbar_search_chk'=> $options['snbar_search_chk'],	
 		'snbar_content_textarea'=>$options['snbar_content_textarea'],	
 		'snbar_menu_select'=>$options['snbar_menu_select'],	

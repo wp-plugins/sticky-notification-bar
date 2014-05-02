@@ -120,7 +120,23 @@ $options = get_option('Snbar_options');
 							<td>
 							  <textarea  style="width:218px; height:86px; overflow: hidden;" name="Snbar_options[snbar_content_textarea]" ><?php echo $options['snbar_content_textarea']?></textarea>
 							</td>
-						</tr>                                 
+						</tr>   
+
+						<?php
+							$options['snbar_content_color'] = (isset($options['snbar_content_color']) && $options['snbar_content_color']) ? $options['snbar_content_color'] : "#000000";				
+						?>
+						
+						
+						<tr class="snbar_custom_msg <?php if($options['snbar_content_type']=="Text"){ echo "show_row";} else{ echo "hide_row";} ?> ">
+							<td><?php _e("Text Message Color",'snbar'); ?> :</td>
+							<td>
+							  <div class="snbar_colwrap">									    
+								<input id="snbar_content_color" style="width:103px;" name="Snbar_options[snbar_content_color]" value="<?php echo $options['snbar_content_color']; ?>"  type="text" />
+								<div class="snbar_colsel snbar_content_color"></div> 
+							 </div>
+							</td>
+						</tr>	
+						
 						<tr class="snbar_custom_menu <?php if($options['snbar_content_type']=="wp_nav_menu"){ echo "show_row";} else{ echo "hide_row"; } ?>">
 							<td><?php _e("Select Wp Menu",'snbar'); ?> :</td>
 							<td>								   
