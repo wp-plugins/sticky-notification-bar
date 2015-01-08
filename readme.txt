@@ -1,5 +1,5 @@
 === Sticky Notification Bar For Wordpress ===
-Contributors: rahulbrilliant2004, tikendramaitry, Nishant Jain
+Contributors: rahulbrilliant2004, tikendramaitry
 Donate link: http://www.wpfruits.com/
 Tags: wordpress notification bar, Stikcy bar top, sticky bar bottom, sticky notification bar, sticky navigation top, scroll to top icon, sticky bar
 Requires at least: 3.0
